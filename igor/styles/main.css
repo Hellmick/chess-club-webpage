@@ -7,7 +7,7 @@ body {
 main {
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 100%;
     background-color: #ffffd8;
     padding: 45px 0 5px 0;
 }
@@ -87,12 +87,14 @@ article > p {
 
 .gallery > ul > li {
     list-style-type: none;
+    float: left;
+    width: 50%;
 }
 
 .gallery > ul > li > figure {
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 70%;
     padding: 10px;
     padding-left: 0;
 }
@@ -102,6 +104,12 @@ article > p {
         width: 80%;
         padding: 10px;
         padding-left: 0;
+    }
+
+    .gallery > ul > li {
+        clear: both;
+        float: initial;
+        width: initial;
     }
   } 
 
